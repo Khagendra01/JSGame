@@ -19,7 +19,16 @@ var checkDead = setInterval(function(){
     if(blockLeft<20 && blockLeft>0 && characterTop>=130){
         block.style.animation = "none";
         block.style.display = "none";
-        alert("u lose.");
+        //alert("u lose.");
 
     }
 }, 10);
+
+function spawn(){
+    l1.classList.add("spawn");
+    l1.style.display = 'block';
+}
+function spawn2(){
+    l1.classList.add("spawn2");
+    l1.style.display = 'block';
+}

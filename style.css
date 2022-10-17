@@ -40,3 +40,59 @@ padding: 0;
     0%{left:480;}
     100%{left:-40px;}
 }
+
+
+
+
+
+
+
+#game2{
+    width: 800px;
+    height: 400px;
+    border: 3px solid black;
+    position: absolute;
+    right: 500px;
+    display: inline;
+}
+
+.buttonL{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 5px;
+}
+
+.buttonR{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 695px;
+    top: 5px;
+}
+
+#l1{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    position: relative;
+    top: 50px;
+    left: 600px;
+    display: none;
+}
+@keyframes Rite {
+    0%{left:480;}
+    100%{left:-40px;}
+}
+@keyframes Let {
+    0%{left:-40px;}
+    100%{left:480px;}
+}
+
+.spawn{
+    animation: Rite 10s infinite;
+}
+.spawn2{
+    animation: Let 10s infinite;
+    background-color: aqua;
+}
